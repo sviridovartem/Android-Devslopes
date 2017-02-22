@@ -16,7 +16,10 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/rounded_corners"
-        android:backgroundTint="#2ca5f5">
+        android:backgroundTint="#2ca5f5"
+        android:layout_weight="1"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/weightBtn">
 
         <ImageView
             android:layout_width="wrap_content"
@@ -24,6 +27,203 @@
             app:srcCompat="@drawable/weight"
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true"
-            android:id="@+id/imageView" />
+            android:id="@+id/imageView"
+            android:padding="35dp" />
+
+        <TextView
+            android:text="30%"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/textView"
+            android:textColor="#fff"
+            android:textSize="40dp"
+            android:paddingRight="10dp" />
+
+        <TextView
+            android:text="Do you even lift?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView3"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp" />
+
+        <TextView
+            android:text="Weight Lift"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="10 sets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/textView4"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#fff"
+            android:textSize="24sp"
+            android:background="@drawable/rounded_corners"
+            android:backgroundTint="#20000000"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:paddingRight="3dp"
+            android:paddingLeft="15dp" />
     </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="#916bcd"
+        android:layout_weight="1"
+        android:id="@+id/yogaBtn">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/yoga"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:padding="35dp" />
+
+        <TextView
+            android:text="15%"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/textView"
+            android:textColor="#fff"
+            android:textSize="40dp"
+            android:paddingRight="10dp" />
+
+        <TextView
+            android:text="Namaste"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView3"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp" />
+
+        <TextView
+            android:text="Yoga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="1 hour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/textView4"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#fff"
+            android:textSize="24sp"
+            android:background="@drawable/rounded_corners"
+            android:backgroundTint="#20000000"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:paddingRight="3dp"
+            android:paddingLeft="15dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="#52ad56"
+        android:layout_weight="1"
+        android:layout_marginTop="5dp"
+        android:id="@+id/cardioBtn">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/hearts"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/imageView"
+            android:padding="35dp" />
+
+        <TextView
+            android:text="22%"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/textView"
+            android:textColor="#fff"
+            android:textSize="40dp"
+            android:paddingRight="10dp" />
+
+        <TextView
+            android:text="Run like crasy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView3"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp" />
+
+        <TextView
+            android:text="Cardio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="5 miles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/textView4"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="#fff"
+            android:textSize="24sp"
+            android:background="@drawable/rounded_corners"
+            android:backgroundTint="#20000000"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:paddingRight="3dp"
+            android:paddingLeft="15dp" />
+    </RelativeLayout>
+
 </LinearLayout>
